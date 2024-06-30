@@ -231,6 +231,7 @@
       font-size: 30px;
       margin-top: -14%;
       margin-left: 90px;
+      color: rgb(128, 9, 0);
       
   }
 
@@ -281,6 +282,11 @@
 }
 .about-info br{
   margin-left: 10px;
+    .navbar h1 {
+      .color: rgb(128, 9, 0);
+      
+  }
+    
 }
 } 
     
