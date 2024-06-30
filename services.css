@@ -213,7 +213,7 @@ body{
 }
 @media (max-width: 480px) {
     .offers-1 img, .offers-2 img {
-    width: 340px;
+    width: 380px;
     height: 490px;
     margin-top:10px;
         
