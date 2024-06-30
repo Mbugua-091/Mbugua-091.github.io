@@ -25,7 +25,7 @@
 
 .navbar {
     background-color:#3498db;
-    height: 300px;
+    height: 230px;
     border-radius: 8px;
 }
 
@@ -206,4 +206,197 @@ margin-top: -176px;
   footer p {
     margin: 0;
   }
-  
+
+ /* Media Query for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+    }
+
+    .navbar img {
+        width: 130px;
+        height: 100px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    .navbar h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 20px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+        margin-left: 0;
+    }
+
+    .nav-list a {
+        font-size: large;
+    }
+
+    .slider {
+        width: 90%;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .slides img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home {
+        font-size: large;
+    }
+
+    .img2 {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .slider h3 {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer .footer-content {
+        gap: 10px;
+    }
+
+    .footer-icons {
+        gap: 20px;
+    }
+
+    .footer-icon1 img {
+        height: 50px;
+    }
+
+    .footer .img2 img {
+        height: 50px;
+    }
+
+    .footer .paybill img,
+    .footer .buygoods img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Media Query for Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+    }
+
+    .navbar img {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar h1 {
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 62px;
+        margin-top: -60px;
+    }
+
+    .navbar {
+        height: auto;
+        padding:-8 px;
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: xx-large;
+    }
+
+    
+
+    .nav-list li {
+        margin: 10px 0;
+        margin-left: 0;
+        font-size: x-large;
+    }
+
+    .nav-list a {
+        font-size: x-large;
+    }
+
+    .slider {
+        width: 95%;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .slides img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home {
+        font-size: medium;
+    }
+
+    .img2 {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .slider h2{
+        color: black;
+    }
+
+    .slider h3 {
+        font-size: x-large;
+        margin-left: 10px;
+      
+    }
+
+    .footer {
+        padding: 40px;
+    }
+
+    .footer .footer-content {
+        gap: 20px;
+    }
+
+    .footer-icons {
+        gap: 15px;
+    }
+
+    .footer-icon1 img {
+        height: 70px;
+
+    }
+
+    .footer .img2 img {
+        height: 40px;
+    }
+
+    .footer .paybill img,
+    .footer .buygoods img {
+        width: 170px;
+        height: 170px;
+    }
+}
