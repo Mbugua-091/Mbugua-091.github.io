@@ -204,6 +204,8 @@ body{
     width: 380px;
     height: 490px;
     margin: 5px;
+    display:grid;
+    align-items:center;
   
    
 }
