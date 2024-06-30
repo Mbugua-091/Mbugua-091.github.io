@@ -211,6 +211,13 @@ body{
       font-size: large;
   }
 }
-
+@media (max-width: 480px) {
+    .offers-1 img, .offers-2 img {
+    width: 240px;
+    height: 490px;
+    margin-top:10px;
+ 
+}
+}
 
     
