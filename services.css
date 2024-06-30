@@ -193,8 +193,8 @@ body{
       margin-top: 0;
   }
   .offers-1, .offers-2 {
-    display: grid;
-    
+    display: flex;
+    align-items:center;
     gap: 15px;
    
 }
