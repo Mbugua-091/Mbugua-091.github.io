@@ -56,13 +56,13 @@ body{
 .offers-1 img{
     margin: 17px;
     border-radius: 10px;
-
+     margin-left:10px;
 
 }
 .offers-2 img{
     margin: 17px;
     border-radius: 10px;
-  
+    margin-left:10px;
 }
 
 .offers-1  :hover{
