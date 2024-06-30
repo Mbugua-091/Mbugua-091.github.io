@@ -19,6 +19,7 @@
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    
 }
 
 .navbar {
@@ -248,6 +249,7 @@
       font-size: 25px;
       margin-left: 82px;
       margin-top: -60px;
+      color: rgb(128, 9, 0)
   }
 
   .navbar {
