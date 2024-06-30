@@ -229,7 +229,7 @@
 
   .navbar h1 {
       font-size: 30px;
-      margin-top: -14%;
+      margin-top: -20px;
       margin-left: 90px;
       color: rgb(128, 9, 0);
       
@@ -237,7 +237,7 @@
 
   .nav-list li {
 
- 
+      margin-top: -80px;
       margin-left: 0;
       text-align: center;
       font-size: xx-large;
