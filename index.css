@@ -207,8 +207,8 @@ margin-top: -176px;
     margin: 0;
   }
 
- /* Media Query for Tablets (max-width: 768px) */
-@media (max-width: 768px) {
+ /* Media Query for Tablets (max-width: 1000px) */
+@media (max-width: 1000px) {
     .container {
         height: auto;
     }
