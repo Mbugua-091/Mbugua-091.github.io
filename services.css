@@ -172,7 +172,7 @@ body{
   .navbar h1 {
       font-size: 30px;
       margin-top: -8%;
-      margin-left: 72px;
+      margin-left: 82px;
       margin-top: -60px;
   }
   .navbar {
@@ -193,8 +193,8 @@ body{
       margin-top: 0;
   }
   .offers-1, .offers-2 {
-    display: flex;
-    align-items:center;
+    display: grid;
+    
     gap: 15px;
    
 }
