@@ -92,20 +92,24 @@
     border-radius: 10px;
     width: 400px;
     height: 600px;
-    
+}
+.photo h1{
+    margin-left: 500px;
+    color:black;
+   
 }
 .picture2 img{
     margin: 17px;
     border-radius: 10px;
-    width: 595px;
+    width: 605px;
     height: 490px;
 
-    margin-left: 17px;
+    margin-left: 37px;
     
 }
 .previous h1 {
  color:rgb(128, 9, 0) ;
- margin-left: 20px;
+ margin-left: 25px;
 }
 .photo{
     background-color: cornflowerblue;
@@ -250,7 +254,11 @@
     margin: 5px;
     margin-left: 17px;
   }
-    
+  .photo h1{
+    margin-left: 250px;
+    color:black;
+   
+  }
 
   .footer {
       padding: 10px;
@@ -347,9 +355,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 15px;
-    justify-items: center;
+    justify-items: center;}
     
-}
+    .photo h1{
+        margin-left: 0px;
+        color:black;
+       
+      }
+
 
   .footer {
       padding: 10px;
