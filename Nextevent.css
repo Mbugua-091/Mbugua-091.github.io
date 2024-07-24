@@ -42,7 +42,23 @@
     height: 230px;
     border-radius: 8px;
 }
-
+.event h1{
+color: black;
+margin-left: 500px;
+}
+.event{
+    background-color: #007FFF;
+}
+.event img{
+    
+        margin: 17px;
+        border-radius: 10px;
+        width: 400px;
+        height: 600px;
+}
+.previous h1{
+    margin-left: 500px;
+}
 .nav-list {
     list-style-type: none;
     display: block;
@@ -204,6 +220,15 @@
   .container {
       height: auto;
   }
+     .event img{
+    
+    margin: 17px;
+    border-radius: 10px;
+    width: 395px;
+    height: 490px;
+    margin: 5px;
+    margin-left: 0px;
+}
 
   .navbar img {
       width: 100px;
