@@ -266,6 +266,10 @@ footer p {
     margin-left: 10px;
     margin-top: 10px;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    margin-left: 370px;
 
 .navbar h1 {
     font-size: 25px;
@@ -321,6 +325,12 @@ footer p {
 .about-info p1{
 margin-left: 10px;
 }
+  .hero{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    width: auto;
+  }
 .about-info br{
 margin-left: 10px;
 .navbar h1 {
