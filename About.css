@@ -269,7 +269,7 @@ footer p {
 .hero{
     display: flex;
     align-items: center;
-    margin-left: 370px;
+    margin-left: 0px;
 
 .navbar h1 {
     font-size: 25px;
